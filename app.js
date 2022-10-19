@@ -145,7 +145,7 @@ app.get('/orders',(req,res) => {
 
 app.put('/updateOrder/:id',(req,res) => {
     let oid = Number(req.params.id);
-    db.collection('order').updateOne(
+    db.collection('orders').updateOne(
         {orderId:oid},
         {
             $set:{
