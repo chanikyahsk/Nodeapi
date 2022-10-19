@@ -84,7 +84,7 @@ app.get('/filter/:mealId',(req,res) => {
 
 // list of meals
 app.get('/meals',(req,res) => {
-    db.collection('mealType').find().toArray((err,result) =>{
+    db.collection('mealtype').find().toArray((err,result) =>{
         if(err) throw err;
         res.send(result)
     })
@@ -111,7 +111,7 @@ app.get('/menu/:id',(req,res) => {
 
 app.post('/placeOrder',(req,res) => {
     console.log(req.body);
-    db.collection('order').insert(req.body,(err,result) => {
+    db.collection('orders').insert(req.body,(err,result) => {
         if(err) throw err;
         res.send('Order Placed')
     })
