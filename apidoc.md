@@ -1,6 +1,6 @@
-// Restaurant Api id's
+# Restaurant Api id's
 
-// Homepage 1
+# Homepage 1
 
 # List of City
 > https://noderestapp.herokuapp.com/location
@@ -14,7 +14,7 @@
 # List of Quick Search
 > https://noderestapp.herokuapp.com/meals
 
-// Restaurantspage 2 
+# Restaurantspage 2 
 
 # List of Restuarants wrt Meal
 > https://noderestapp.herokuapp.com/restaurants?mealId=2
@@ -28,7 +28,7 @@
 # Sort on basis of cost
 > https://noderestapp.herokuapp.com/filter/5?lcost=200&hcost=800&sort=1
 
-// Detailspage 3
+# Detailspage 3
 
 # details of the Restuarants
 > https://noderestapp.herokuapp.com/details/6
